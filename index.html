@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="title" style="text-align: center">
+        <span style="color: #d66b6b">Rock</span>
+        <span style="color: #63c97d">Paper</span>
+        <span style="color: #66a8c7">Scissors</span>
+    </h1>
+
+    <p class="description" style="text-align: center">Choose your weapon! First to five wins!</p>
+
+    <div class="buttons">
+        <button type="button" id="rock">
+            <img src="./Images/Rock.png">
+        </button>
+        <button type="button" id="paper">
+            <img src="./Images/Paper.png">
+        </button>
+        <button type="button" id="scissors">
+            <img src="./Images/Scissors.png">
+        </button>
+    </div>
+
+    <div class="diagrams">
+        <div class="yourChoice">
+            <p>Your choice:</p>
+        </div>
+        <div class="compChoice">
+            <p>Computer choice:</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="scorebar"></div>
+        <div class="message" style="text-align: center"></div>
+    </div>
+
+    <button type="button" class="restart">play again</button>
+</body>
+
+<footer>Designed by Andy Hu (2022)</footer>
+
+
+</html>
